@@ -16,7 +16,7 @@ export default function Formulario() {
         </Cartao>
         <Cartao>
           <EntradaNumerica
-            text="Qtde Portas?"
+            text="Quantidade Portas?"
             value={qtdePortas}
             onChange={(novaQtde) => setQtdePortas(novaQtde)}
           />
